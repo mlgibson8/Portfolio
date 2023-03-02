@@ -5,10 +5,9 @@
     box-sizing:border-box;
 }
 .hero {
-    height: 50vh; 
-    width: 100%;
-    padding: 20em;
-    background-image: url(C:\users\michael\bootcamp\Portfolio\assets\images\pond.jpg);
+    height: 100vh; 
+    width: 100%;   
+    background-image: url(https://github.com/mlgibson8/Portfolio/blob/main/assets/images/pond.jpg?raw=true);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
@@ -17,14 +16,15 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #000;
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
 }
 
 .logo {
-    color: white;
-    font-size: 35px;
+    color: rgb(31, 155, 72);
+    font-size: 30px;
     letter-spacing: 1px;
     cursor:pointer;
 }
