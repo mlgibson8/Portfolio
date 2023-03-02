@@ -259,13 +259,14 @@ title h3{
     }
 
 .card2 {
+    color: white;
     height: 600px;
-    width: 600px;
+    width: 635px;
     padding: 20px 35px;
     background: rgba(70, 63, 66, 0.8);
     border-radius: 20px;
     margin: 15px;
-    position: relative;
+    position: sticky;    
     overflow: hidden;
     text-align: center;
 }
@@ -340,12 +341,29 @@ footer p:nth-child(2){
 	color: white;
 	text-decoration: none;
 	font-size: 20px;
-    button onclick=
 }
 .social a:hover{
 	transform: scale(1.3);
 	transition: .3s;
 }
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+    header {
+      background: #772014;
+    }
+    .card {
+        flex-direction: row;
+    }  
+    .button { flex-direction: row;} 
+    nav,
+    footer {
+      background-color: #bb8588;
+    }
+  }
 .end{
 	position: absolute;
 	color:#f9004d;
