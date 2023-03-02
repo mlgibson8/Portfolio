@@ -26,14 +26,14 @@ nav {
 }
 
 .logo {
-    color: rgb(189, 224, 31);
+    color: rgb(33, 65, 168);
     font-weight: bold;
     font-size: 30px;
     letter-spacing: 1px;
     cursor:pointer;
 }
 span {
-    color: #f9004d;
+    color: #940a0a;
 }
 
 nav ul li{
@@ -83,14 +83,14 @@ h1{
 }
 
 h3 {
-    color: #14060a;
-    font-size: 25px;
+    color: #05465a;
+    font-size: 45px;
     margin-bottom: 50px;
 }
 h4 {
-    color: #860c72;
+    color: black;
     letter-spacing: 2px;
-    font-size: 90px;
+    font-size: 80px;
  }
  .newsletter form {
     width: 380px;
