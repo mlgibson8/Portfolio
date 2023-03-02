@@ -4,6 +4,9 @@
     font-family: 'josefin Sans', sans-serif;
     box-sizing:border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 .hero {
     height: 100vh; 
     width: 100%;   
@@ -23,7 +26,8 @@ nav {
 }
 
 .logo {
-    color: rgb(31, 155, 72);
+    color: rgb(189, 224, 31);
+    font-weight: bold;
     font-size: 30px;
     letter-spacing: 1px;
     cursor:pointer;
@@ -39,13 +43,15 @@ nav ul li{
 }
 nav ul li a {
     color: rgb(255, 255, 255);
+    padding: 7px 13px;
+    border-radius: 3px;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
 }
 
 nav ul li a:hover {
-    color: #f9004d;
+    color: #1b9bff;
     transition: .8s;
     
 }
@@ -64,10 +70,11 @@ nav ul li a:hover {
     transform: scale(1.4);   
 }
 .content {
+    
     position: absolute;
     top: 50%;
     left: 8%;
-    transform: translate(-35%);
+    
 }
 h1{
     color: white;
@@ -76,14 +83,14 @@ h1{
 }
 
 h3 {
-    color: white;
+    color: #14060a;
     font-size: 25px;
     margin-bottom: 50px;
 }
 h4 {
-    color: #fcfc;
+    color: #860c72;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 90px;
  }
  .newsletter form {
     width: 380px;
@@ -172,7 +179,7 @@ button:hover {
 }
 
 .service {
-    background: #cf1212;
+    background: #1f2799c7;
     width: 100%;
     padding: 100px 0px;
 }
@@ -208,14 +215,21 @@ button:hover {
     margin: 25px 0px;
 	color: #14060a;
 }
+h6{
+    color: rgb(226, 14, 14);
+    font-size: 45px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
 h5{
 	color: white;
 	font-size: 23px;
 	margin-bottom: 15px;
 }
 .pra p{
-	color: #fcfc;
-	font-size: 16px;
+	color: rgba(58, 235, 23, 0.8);
+	font-size: 22px;
 	line-height: 27px;
 	margin-bottom: 25px;
 }
@@ -233,6 +247,30 @@ h5{
 	background-color: transparent;
 	border: 2px solid #f9004d;
 	cursor: pointer;
+}
+
+.course {
+    background-color: black;
+}
+
+title h3{
+    size: 34px;
+    color: #14060a;
+    }
+
+.card2 {
+    height: 600px;
+    width: 600px;
+    padding: 20px 35px;
+    background: rgba(70, 63, 66, 0.8);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card2 image {
+    size-adjust: fill;
 }
 .contact-me{
 	width: 100%;
@@ -302,6 +340,7 @@ footer p:nth-child(2){
 	color: white;
 	text-decoration: none;
 	font-size: 20px;
+    button onclick=
 }
 .social a:hover{
 	transform: scale(1.3);
