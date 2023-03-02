@@ -5,9 +5,10 @@
     box-sizing:border-box;
 }
 .hero {
-    height: 100vh; 
+    height: 50vh; 
     width: 100%;
-    background-image: url(C:\users\michael\bootcamp\Portfolio\assets\hilltest.png);
+    padding: 20em;
+    background-image: url(C:\users\michael\bootcamp\Portfolio\assets\images\pond.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
