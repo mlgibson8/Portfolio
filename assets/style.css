@@ -187,3 +187,20 @@ button:hover {
     align-items: center;
     min-height: 400px;
 }
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #fcfc;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i {
+    font-size: 59px;
+    display: block;
+    text-align: center;
+}
