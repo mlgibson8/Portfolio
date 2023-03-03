@@ -9,4 +9,8 @@ I spend alot of time working on a subscribe button and other cards.
 
 I followed a turtorial at some point for help with css card layout , https://www.youtube.com/watch?v=lgeoAUvoRJU&t=17s
 
-! [alt text](https://github.com/mlgibson8/Portfolio/blob/main/assets/images/module-02.png )
+![screenshot](https://github.com/mlgibson8/Portfolio/blob/main/assets/images/module-02.png )
+
+![repository] (https://github.com/mlgibson8/Portfolio.git)
+
+![live!] (https://mlgibson8.github.io/Portfolio/)
